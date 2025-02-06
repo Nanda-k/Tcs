@@ -1,0 +1,516 @@
+,Drug Name,RXCUI,Therapeutic Class
+0,abatacept,614391,Selective immunosuppressants
+1,abatacept,614391,"ANTIRHEUMATICS,OTHER"
+16,abatacept,614391,Immunomodulator-containing product
+17,abatacept,614391,Fusion protein-containing product
+18,abatacept,614391,Abatacept
+19,abatacept,614391,"Arthritis, Juvenile"
+20,abatacept,614391,"Arthritis, Rheumatoid"
+21,abatacept,614391,Recombinant Fusion Proteins
+23,abatacept,614391,"Arthritis, Psoriatic"
+25,abatacept,614391,Decreased Cytokine Activity
+27,abatacept,614391,CD80-directed Antibody Interactions
+28,abatacept,614391,CD86-directed Antibody Interactions
+29,abatacept,614391,Selective T Cell Costimulation Modulator
+31,abatacept,614391,T Lymphocyte Costimulation Activity Blockade
+36,abrocitinib,2591476,Janus kinase inhibitor-containing product
+37,abrocitinib,2591476,Sulfonamide-containing product
+38,abrocitinib,2591476,"Dermatitis, Atopic"
+39,abrocitinib,2591476,Pyrimidines
+40,abrocitinib,2591476,Sulfonamides
+41,abrocitinib,2591476,"Agents for dermatitis, excluding corticosteroids"
+42,abrocitinib,2591476,P-Glycoprotein Inhibitors
+44,abrocitinib,2591476,Janus Kinase Inhibitors
+46,abrocitinib,2591476,Janus Kinase Inhibitor
+49,abrocitinib,2591476,"DERMATOLOGICALS,SYSTEMIC,OTHER"
+60,adalimumab,327361,Tumor necrosis factor alpha (TNF-alpha) inhibitors
+62,adalimumab,327361,"ANTIRHEUMATICS,OTHER"
+115,adalimumab,327361,Adalimumab
+116,adalimumab,327361,"Antibodies, Monoclonal"
+118,adalimumab,327361,"Arthritis, Juvenile"
+119,adalimumab,327361,"Arthritis, Rheumatoid"
+120,adalimumab,327361,"Colitis, Ulcerative"
+121,adalimumab,327361,Crohn Disease
+122,adalimumab,327361,Drug Hypersensitivity
+123,adalimumab,327361,"Spondylitis, Ankylosing"
+124,adalimumab,327361,Uveitis
+125,adalimumab,327361,"Arthritis, Psoriatic"
+126,adalimumab,327361,Hidradenitis Suppurativa
+127,adalimumab,327361,Biological Response Modifiers
+128,adalimumab,327361,Immunologic Activity Alteration
+129,adalimumab,327361,Tumor Necrosis Factor alpha Receptor Blocking Activity
+130,adalimumab,327361,Tumor Necrosis Factor Receptor Blocking Activity
+132,adalimumab,327361,Tumor Necrosis Factor Blocker
+488,adalimumab,327361,Monoclonal antibody-containing product
+489,adalimumab,327361,Tumor necrosis factor alpha inhibitor-containing product
+516,alemtuzumab,117055,Immunomodulator-containing product
+517,alemtuzumab,117055,Monoclonal antibody antineoplastic agent
+519,alemtuzumab,117055,Alemtuzumab
+520,alemtuzumab,117055,Drug Hypersensitivity
+521,alemtuzumab,117055,Immunologic Deficiency Syndromes
+522,alemtuzumab,117055,Infections
+523,alemtuzumab,117055,"Leukemia, Lymphocytic, Chronic, B-Cell"
+524,alemtuzumab,117055,Monoclonal antibodies
+525,alemtuzumab,117055,Increased Lymphocyte Cell Destruction
+526,alemtuzumab,117055,Antibody-Receptor Interactions
+527,alemtuzumab,117055,CD52-directed Antibody Interactions
+530,alemtuzumab,117055,CD52-directed Cytolytic Antibody
+532,alemtuzumab,117055,"ANTINEOPLASTIC,OTHER"
+540,anakinra,72435,Recombinant interleukin 1 receptor antagonist-containing product
+542,anakinra,72435,"Arthritis, Rheumatoid"
+543,anakinra,72435,Drug Hypersensitivity
+544,anakinra,72435,Infections
+545,anakinra,72435,Escherichia coli Proteins
+546,anakinra,72435,Interleukin 1 Receptor Antagonist Protein
+547,anakinra,72435,Cryopyrin-Associated Periodic Syndromes
+548,anakinra,72435,Interleukin inhibitors
+549,anakinra,72435,Enzyme Inhibitors
+550,anakinra,72435,Bone Resorption Inhibition
+551,anakinra,72435,Decreased Immunologically Active Molecule Activity
+552,anakinra,72435,Interleukin 1 Receptor Antagonists
+555,anakinra,72435,Interleukin-1 Receptor Antagonist
+558,anakinra,72435,"ANTIRHEUMATICS,OTHER"
+561,apremilast,1492727,Immunomodulator-containing product
+562,apremilast,1492727,Ether structure-containing product
+563,apremilast,1492727,Phosphodiesterase 4 inhibitor-containing product
+564,apremilast,1492727,Sulfur and/or sulfur compound-containing product
+565,apremilast,1492727,Drug Hypersensitivity
+566,apremilast,1492727,Thalidomide
+567,apremilast,1492727,"Arthritis, Psoriatic"
+568,apremilast,1492727,Selective immunosuppressants
+569,apremilast,1492727,Decreased Leukotriene Production
+570,apremilast,1492727,Phosphodiesterase 4 Inhibitors
+573,apremilast,1492727,Phosphodiesterase 4 Inhibitor
+576,apremilast,1492727,"ANTIRHEUMATICS,OTHER"
+599,baricitinib,2047232,Immunomodulator-containing product
+600,baricitinib,2047232,Janus kinase inhibitor-containing product
+601,baricitinib,2047232,"Arthritis, Rheumatoid"
+602,baricitinib,2047232,Azetidines
+603,baricitinib,2047232,Purines
+604,baricitinib,2047232,Pyrazoles
+605,baricitinib,2047232,Sulfonamides
+606,baricitinib,2047232,Janus-associated kinase (JAK) inhibitors
+607,baricitinib,2047232,Increased Extracellular Communication
+608,baricitinib,2047232,Janus Kinase Inhibitors
+611,baricitinib,2047232,Janus Kinase Inhibitor
+614,baricitinib,2047232,"ANTIRHEUMATICS,OTHER"
+625,benralizumab,1989100,Monoclonal antibody-containing product
+626,benralizumab,1989100,Interleukin receptor antagonist-containing product
+627,benralizumab,1989100,Asthma
+628,benralizumab,1989100,Drug Hypersensitivity
+629,benralizumab,1989100,"Antibodies, Monoclonal, Humanized"
+630,benralizumab,1989100,Interleukin 5 Receptor alpha-directed Antibody Interactions
+632,benralizumab,1989100,Interleukin-5 Receptor alpha-directed Cytolytic Antibody
+634,benralizumab,1989100,Other systemic drugs for obstructive airway diseases
+636,benralizumab,1989100,"ANTIASTHMA,OTHER"
+647,brodalumab,1872251,Monoclonal antibody-containing product
+648,brodalumab,1872251,Interleukin receptor antagonist-containing product
+649,brodalumab,1872251,"Antibodies, Monoclonal"
+651,brodalumab,1872251,Crohn Disease
+652,brodalumab,1872251,Psoriasis
+653,brodalumab,1872251,"Antibodies, Monoclonal, Humanized"
+654,brodalumab,1872251,Interleukin inhibitors
+655,brodalumab,1872251,Interleukin-17 Receptor A Antagonist
+657,brodalumab,1872251,Interleukin 17 Receptor A Interactions
+658,brodalumab,1872251,Interleukin 17 Receptor A Antagonists
+660,brodalumab,1872251,"ANTIPSORIATICS,SYSTEMIC"
+664,canakinumab,853491,IMMUNE SUPPRESSANTS
+665,canakinumab,853491,Interleukin inhibitors
+668,canakinumab,853491,Monoclonal antibody-containing product
+669,canakinumab,853491,Interleukin 1 receptor antagonist-containing product
+670,canakinumab,853491,"Arthritis, Juvenile"
+671,canakinumab,853491,Drug Hypersensitivity
+672,canakinumab,853491,Familial Mediterranean Fever
+673,canakinumab,853491,Mevalonate Kinase Deficiency
+674,canakinumab,853491,Cryopyrin-Associated Periodic Syndromes
+675,canakinumab,853491,"Antibodies, Monoclonal, Humanized"
+677,canakinumab,853491,Decreased Immunologic Activity
+678,canakinumab,853491,Interleukin 1 Receptor Antagonists
+679,certolizumab pegol,709271,Monoclonal antibody-containing product
+680,certolizumab pegol,709271,Tumor necrosis factor alpha inhibitor-containing product
+681,certolizumab pegol,709271,Certolizumab Pegol
+682,certolizumab pegol,709271,"Arthritis, Rheumatoid"
+683,certolizumab pegol,709271,Crohn Disease
+684,certolizumab pegol,709271,Drug Hypersensitivity
+685,certolizumab pegol,709271,"Spondylitis, Ankylosing"
+686,certolizumab pegol,709271,"Arthritis, Psoriatic"
+687,certolizumab pegol,709271,Tumor necrosis factor alpha (TNF-alpha) inhibitors
+688,certolizumab pegol,709271,Biological Response Modifiers
+689,certolizumab pegol,709271,Immunologic Activity Alteration
+690,certolizumab pegol,709271,Tumor Necrosis Factor alpha Receptor Blocking Activity
+691,certolizumab pegol,709271,Tumor Necrosis Factor Receptor Blocking Activity
+693,certolizumab pegol,709271,Tumor Necrosis Factor Blocker
+695,certolizumab pegol,709271,TUMOR NECROSIS FACTOR BLOCKER
+703,deucravacitinib,2612087,Heterocyclic Compounds
+704,deucravacitinib,2612087,Parapsoriasis
+705,deucravacitinib,2612087,Janus-associated kinase (JAK) inhibitors
+706,deucravacitinib,2612087,Tyrosine Kinase Inhibitors
+707,deucravacitinib,2612087,Increased Immunologic Activity
+708,deucravacitinib,2612087,Janus Kinase Inhibitors
+709,deucravacitinib,2612087,Tyrosine Kinase 2 Inhibitor
+711,deucravacitinib,2612087,Tyrosine Kinase 2 Inhibitors
+713,deucravacitinib,2612087,"ANTIPSORIATICS,SYSTEMIC"
+717,deuruxolitinib,N/A,N/A
+718,dupilumab,1876376,Monoclonal antibody-containing product
+719,dupilumab,1876376,Interleukin-4 receptor alpha antagonist-containing product
+720,dupilumab,1876376,"Antibodies, Monoclonal"
+722,dupilumab,1876376,"Dermatitis, Atopic"
+723,dupilumab,1876376,Drug Hypersensitivity
+724,dupilumab,1876376,"Antibodies, Monoclonal, Humanized"
+725,dupilumab,1876376,"Agents for dermatitis, excluding corticosteroids"
+726,dupilumab,1876376,Decreased Immunologic Activity
+727,dupilumab,1876376,Interleukin 4 Receptor alpha Antagonists
+730,dupilumab,1876376,Interleukin-4 Receptor alpha Antagonist
+733,dupilumab,1876376,"DERMATOLOGICALS,SYSTEMIC,OTHER"
+752,etanercept,214555,Tumor necrosis factor alpha (TNF-alpha) inhibitors
+753,etanercept,214555,"ANTIRHEUMATICS,OTHER"
+756,etanercept,214555,Etanercept
+757,etanercept,214555,"Arthritis, Juvenile"
+758,etanercept,214555,"Arthritis, Rheumatoid"
+759,etanercept,214555,Drug Hypersensitivity
+760,etanercept,214555,"Spondylitis, Ankylosing"
+761,etanercept,214555,"Arthritis, Psoriatic"
+762,etanercept,214555,Sepsis
+763,etanercept,214555,Biological Response Modifiers
+764,etanercept,214555,Immunologic Activity Alteration
+765,etanercept,214555,Tumor Necrosis Factor alpha Receptor Blocking Activity
+766,etanercept,214555,Tumor Necrosis Factor beta Receptor Blocking Activity
+767,etanercept,214555,Tumor necrosis factor alpha inhibitor-containing product
+768,etanercept,214555,Fusion protein-containing product
+781,etanercept,214555,Tumor Necrosis Factor Receptor Blocking Activity
+783,etanercept,214555,Tumor Necrosis Factor Blocker
+808,etrasimod,2668045,Acetates
+809,etrasimod,2668045,"Colitis, Ulcerative"
+810,etrasimod,2668045,Indoles
+811,etrasimod,2668045,Sphingosine-1-phosphate (S1P) receptor modulators
+812,etrasimod,2668045,Hormone Receptor Modulators
+813,etrasimod,2668045,Decreased Cellular Migration
+817,etrasimod,2668045,"IMMUNOLOGICAL AGENTS,OTHER"
+821,golimumab,819300,Tumor necrosis factor alpha (TNF-alpha) inhibitors
+822,golimumab,819300,"ANTIRHEUMATICS,OTHER"
+837,golimumab,819300,Monoclonal antibody-containing product
+838,golimumab,819300,Tumor necrosis factor alpha inhibitor-containing product
+839,golimumab,819300,"Antibodies, Monoclonal"
+840,golimumab,819300,"Arthritis, Rheumatoid"
+842,golimumab,819300,Biological Response Modifiers
+843,golimumab,819300,Immunologic Activity Alteration
+844,golimumab,819300,Tumor Necrosis Factor alpha Receptor Blocking Activity
+845,golimumab,819300,Tumor Necrosis Factor Receptor Blocking Activity
+847,golimumab,819300,Tumor Necrosis Factor Blocker
+853,guselkumab,1928588,Monoclonal antibody-containing product
+854,guselkumab,1928588,Interleukin receptor antagonist-containing product
+855,guselkumab,1928588,Psoriasis
+856,guselkumab,1928588,"Antibodies, Monoclonal, Humanized"
+857,guselkumab,1928588,Interleukin inhibitors
+858,guselkumab,1928588,Antibody-Receptor Interactions
+859,guselkumab,1928588,Interleukin-23 Antagonists
+862,guselkumab,1928588,Interleukin-23 Antagonist
+864,guselkumab,1928588,IMMUNE SUPPRESSANTS
+884,infliximab,191831,Infliximab
+885,infliximab,191831,"Arthritis, Rheumatoid"
+886,infliximab,191831,"Colitis, Ulcerative"
+887,infliximab,191831,Crohn Disease
+888,infliximab,191831,Drug Hypersensitivity
+889,infliximab,191831,Heart Failure
+890,infliximab,191831,"Spondylitis, Ankylosing"
+891,infliximab,191831,"Arthritis, Psoriatic"
+892,infliximab,191831,Biological Response Modifiers
+893,infliximab,191831,Decreased Cytokine Activity
+894,infliximab,191831,Increased Adhesion Factor Production
+895,infliximab,191831,Decreased Vascular Permeability
+896,infliximab,191831,Tumor Necrosis Factor alpha Receptor Blocking Activity
+897,infliximab,191831,IMMUNE SUPPRESSANTS
+898,infliximab,191831,Tumor necrosis factor alpha (TNF-alpha) inhibitors
+901,infliximab,191831,Monoclonal antibody-containing product
+902,infliximab,191831,Tumor necrosis factor alpha inhibitor-containing product
+916,infliximab,191831,Tumor Necrosis Factor Receptor Blocking Activity
+918,infliximab,191831,Tumor Necrosis Factor Blocker
+974,ixekizumab,1745099,Monoclonal antibody-containing product
+975,ixekizumab,1745099,Interleukin receptor antagonist-containing product
+976,ixekizumab,1745099,Drug Hypersensitivity
+977,ixekizumab,1745099,Psoriasis
+978,ixekizumab,1745099,"Antibodies, Monoclonal, Humanized"
+979,ixekizumab,1745099,Interleukin inhibitors
+980,ixekizumab,1745099,Interleukin-17A Antagonists
+983,ixekizumab,1745099,Interleukin-17A Antagonist
+985,ixekizumab,1745099,IMMUNE SUPPRESSANTS
+1001,mepolizumab,1720597,Monoclonal antibody-containing product
+1002,mepolizumab,1720597,Interleukin 5 receptor antagonist-containing product
+1003,mepolizumab,1720597,Asthma
+1004,mepolizumab,1720597,Drug Hypersensitivity
+1005,mepolizumab,1720597,"Antibodies, Monoclonal, Humanized"
+1006,mepolizumab,1720597,Interleukin-5 Antagonists
+1009,mepolizumab,1720597,Interleukin-5 Antagonist
+1011,mepolizumab,1720597,Other systemic drugs for obstructive airway diseases
+1013,mepolizumab,1720597,"ANTIASTHMA,OTHER"
+1028,mirikizumab-mrkz,2668385,"Colitis, Ulcerative"
+1029,mirikizumab-mrkz,2668385,"Antibodies, Monoclonal, Humanized"
+1030,mirikizumab-mrkz,2668385,Interleukin inhibitors
+1031,mirikizumab-mrkz,2668385,Decreased Cytokine Activity
+1032,mirikizumab-mrkz,2668385,Antibody-Receptor Interactions
+1033,mirikizumab-mrkz,2668385,Interleukin-23 Antagonists
+1036,mirikizumab-mrkz,2668385,Interleukin-23 Antagonist
+1042,mirikizumab-mrkz,2668385,IMMUNE SUPPRESSANTS
+1054,natalizumab,354770,Monoclonal antibody-containing product
+1055,natalizumab,354770,Immunomodulator-containing product
+1056,natalizumab,354770,Alpha-4 integrin receptor antagonist-containing product
+1057,natalizumab,354770,Natalizumab
+1058,natalizumab,354770,Crohn Disease
+1059,natalizumab,354770,Drug Hypersensitivity
+1060,natalizumab,354770,"Leukoencephalopathy, Progressive Multifocal"
+1061,natalizumab,354770,Multiple Sclerosis
+1062,natalizumab,354770,Monoclonal antibodies
+1063,natalizumab,354770,Decreased Adhesion Factor Activity
+1064,natalizumab,354770,Integrin Receptor Antagonists
+1067,natalizumab,354770,Integrin Receptor Antagonist
+1069,natalizumab,354770,IMMUNE STIMULANTS
+1073,ocrelizumab,1876366,Monoclonal antibody-containing product
+1074,ocrelizumab,1876366,Immunomodulator-containing product
+1075,ocrelizumab,1876366,"Antibodies, Monoclonal"
+1077,ocrelizumab,1876366,Drug Hypersensitivity
+1078,ocrelizumab,1876366,Hepatitis B
+1079,ocrelizumab,1876366,Multiple Sclerosis
+1080,ocrelizumab,1876366,"Antibodies, Monoclonal, Humanized"
+1083,ocrelizumab,1876366,Monoclonal antibodies
+1084,ocrelizumab,1876366,CD20-directed Antibody Interactions
+1087,ocrelizumab,1876366,CD20-directed Cytolytic Antibody
+1090,ocrelizumab,1876366,"MUSCULOSKELETAL AGENTS,OTHER"
+1096,ocrelizumab,1876366,Decreased Immunologic Activity
+1101,ofatumumab,712566,"ANTINEOPLASTIC,OTHER"
+1102,ofatumumab,712566,CD20 (Clusters of Differentiation 20) inhibitors
+1113,ofatumumab,712566,Immunomodulator-containing product
+1114,ofatumumab,712566,Monoclonal antibody antineoplastic agent
+1116,ofatumumab,712566,"Leukemia, Lymphoid"
+1117,ofatumumab,712566,"Antibodies, Monoclonal, Humanized"
+1119,ofatumumab,712566,Monoclonal antibodies
+1120,ofatumumab,712566,CD20-directed Antibody Interactions
+1123,ofatumumab,712566,CD20-directed Cytolytic Antibody
+1125,omalizumab,302379,IMMUNE SUPPRESSANTS
+1126,omalizumab,302379,Other systemic drugs for obstructive airway diseases
+1138,omalizumab,302379,Monoclonal antibodies
+1153,omalizumab,302379,Monoclonal antibody-containing product
+1154,omalizumab,302379,Immunomodulator-containing product
+1155,omalizumab,302379,Omalizumab
+1156,omalizumab,302379,Asthma
+1157,omalizumab,302379,Drug Hypersensitivity
+1158,omalizumab,302379,IgE-directed Antibody Interactions
+1161,omalizumab,302379,Decreased IgE Activity
+1164,omalizumab,302379,Anti-IgE
+1167,ozanimod,2288235,"Angina, Unstable"
+1168,ozanimod,2288235,"Ischemic Attack, Transient"
+1169,ozanimod,2288235,Heart Failure
+1170,ozanimod,2288235,Myocardial Infarction
+1171,ozanimod,2288235,Sick Sinus Syndrome
+1172,ozanimod,2288235,Sinoatrial Block
+1173,ozanimod,2288235,Sleep Apnea Syndromes
+1174,ozanimod,2288235,Stroke
+1175,ozanimod,2288235,"Multiple Sclerosis, Relapsing-Remitting"
+1176,ozanimod,2288235,Atrioventricular Block
+1177,ozanimod,2288235,Monoamine Oxidase Inhibitors
+1178,ozanimod,2288235,Decreased Lymphocyte Activation
+1179,ozanimod,2288235,Sphingosine 1-Phosphate Receptor Modulators
+1180,ozanimod,2288235,Immunomodulator-containing product
+1184,ozanimod,2288235,Indans
+1186,ozanimod,2288235,Oxadiazoles
+1193,ozanimod,2288235,Sphingosine-1-phosphate (S1P) receptor modulators
+1199,ozanimod,2288235,Sphingosine 1-phosphate Receptor Modulator
+1201,reslizumab,1746889,Monoclonal antibody-containing product
+1202,reslizumab,1746889,Interleukin 5 receptor antagonist-containing product
+1203,reslizumab,1746889,Asthma
+1204,reslizumab,1746889,Drug Hypersensitivity
+1205,reslizumab,1746889,"Antibodies, Monoclonal, Humanized"
+1206,reslizumab,1746889,Interleukin-5 Antagonists
+1209,reslizumab,1746889,Interleukin-5 Antagonist
+1211,reslizumab,1746889,Other systemic drugs for obstructive airway diseases
+1213,reslizumab,1746889,"RESPIRATORY AGENTS,OTHER"
+1216,risankizumab,2166040,Monoclonal antibody-containing product
+1217,risankizumab,2166040,Interleukin 23 receptor antagonist-containing product
+1218,risankizumab,2166040,"Antibodies, Monoclonal"
+1219,risankizumab,2166040,Psoriasis
+1220,risankizumab,2166040,Interleukin inhibitors
+1221,risankizumab,2166040,Decreased Cytokine Activity
+1222,risankizumab,2166040,Interleukin-23 Antagonists
+1225,risankizumab,2166040,Interleukin-23 Antagonist
+1232,risankizumab,2166040,"ANTIRHEUMATICS,OTHER"
+1262,rituximab,121191,Immunomodulator-containing product
+1263,rituximab,121191,Monoclonal antibody antineoplastic agent
+1265,rituximab,121191,Rituximab
+1266,rituximab,121191,"Arthritis, Rheumatoid"
+1267,rituximab,121191,Drug Hypersensitivity
+1268,rituximab,121191,"Leukemia, Lymphoid"
+1269,rituximab,121191,Granulomatosis with Polyangiitis
+1270,rituximab,121191,"Lymphoma, B-Cell"
+1271,rituximab,121191,"Lymphoma, Mantle-Cell"
+1272,rituximab,121191,Microscopic Polyangiitis
+1273,rituximab,121191,CD20 (Clusters of Differentiation 20) inhibitors
+1274,rituximab,121191,Increased Cellular Death
+1275,rituximab,121191,Antibody-Receptor Interactions
+1276,rituximab,121191,CD20-directed Antibody Interactions
+1278,rituximab,121191,CD20-directed Cytolytic Antibody
+1280,rituximab,121191,"ANTINEOPLASTIC,OTHER"
+1348,roflumilast,1091836,Phosphodiesterase 4 inhibitor-containing product
+1349,roflumilast,1091836,Benzamide structure-containing product
+1350,roflumilast,1091836,Aminopyridines
+1351,roflumilast,1091836,Benzamides
+1352,roflumilast,1091836,Cyclopropanes
+1353,roflumilast,1091836,Liver Diseases
+1354,roflumilast,1091836,"Pulmonary Disease, Chronic Obstructive"
+1355,roflumilast,1091836,Other antipsoriatics for topical use
+1356,roflumilast,1091836,Decreased Tracheo-Bronchial Secretions
+1357,roflumilast,1091836,Phosphodiesterase 4 Inhibitors
+1360,roflumilast,1091836,Phosphodiesterase 4 Inhibitor
+1362,roflumilast,1091836,Other systemic drugs for obstructive airway diseases
+1364,roflumilast,1091836,"RESPIRATORY AGENTS,OTHER"
+1372,roflumilast,1091836,"ANTIPSORIATICS,TOPICAL"
+1383,ruxolitinib,1193325,Nitriles
+1384,ruxolitinib,1193325,Polycythemia Vera
+1385,ruxolitinib,1193325,Primary Myelofibrosis
+1386,ruxolitinib,1193325,Decreased Hematopoiesis
+1387,ruxolitinib,1193325,Cellular Proliferation Alteration
+1388,ruxolitinib,1193325,Janus Kinase Inhibitors
+1389,ruxolitinib,1193325,Antineoplastic agent
+1390,ruxolitinib,1193325,Janus kinase inhibitor-containing product
+1391,ruxolitinib,1193325,Azole-containing product
+1394,ruxolitinib,1193325,Pyrazoles
+1395,ruxolitinib,1193325,Pyrimidines
+1397,ruxolitinib,1193325,"Agents for dermatitis, excluding corticosteroids"
+1398,ruxolitinib,1193325,Janus-associated kinase (JAK) inhibitors
+1400,ruxolitinib,1193325,Kinase Inhibitor
+1406,ruxolitinib,1193325,Janus Kinase Inhibitor
+1408,sarilumab,1923319,Monoclonal antibody-containing product
+1409,sarilumab,1923319,Interleukin receptor antagonist-containing product
+1410,sarilumab,1923319,"Arthritis, Rheumatoid"
+1411,sarilumab,1923319,Drug Hypersensitivity
+1412,sarilumab,1923319,"Antibodies, Monoclonal, Humanized"
+1413,sarilumab,1923319,Interleukin inhibitors
+1414,sarilumab,1923319,Decreased Cytokine Activity
+1415,sarilumab,1923319,Interleukin 6 Receptor Antagonists
+1418,sarilumab,1923319,Interleukin-6 Receptor Antagonist
+1421,sarilumab,1923319,"ANTIRHEUMATICS,OTHER"
+1436,secukinumab,1599788,Monoclonal antibody-containing product
+1437,secukinumab,1599788,Immunomodulator-containing product
+1438,secukinumab,1599788,Drug Hypersensitivity
+1439,secukinumab,1599788,"Spondylitis, Ankylosing"
+1440,secukinumab,1599788,"Arthritis, Psoriatic"
+1441,secukinumab,1599788,"Antibodies, Monoclonal, Humanized"
+1442,secukinumab,1599788,Interleukin inhibitors
+1443,secukinumab,1599788,Interleukin-17A Antagonists
+1446,secukinumab,1599788,Interleukin-17A Antagonist
+1448,secukinumab,1599788,IMMUNE SUPPRESSANTS
+1468,spesolimab-sbzo,2610418,Psoriasis
+1469,spesolimab-sbzo,2610418,"Antibodies, Monoclonal, Humanized"
+1470,spesolimab-sbzo,2610418,Interleukin inhibitors
+1471,spesolimab-sbzo,2610418,Antibody Interactions
+1472,spesolimab-sbzo,2610418,Interleukin-36 Receptor Antagonist
+1474,spesolimab-sbzo,2610418,Interleukin-36 Receptor Antagonists
+1478,spesolimab-sbzo,2610418,"ANTIPSORIATICS,SYSTEMIC"
+1486,tezepelumab ekko,2587790,Monoclonal antibody-containing product
+1487,tezepelumab ekko,2587790,Immunoglobulin-containing product
+1488,tezepelumab ekko,2587790,Asthma
+1489,tezepelumab ekko,2587790,"Antibodies, Monoclonal, Humanized"
+1490,tezepelumab ekko,2587790,Respiratory/Pulmonary Activity Alteration
+1491,tezepelumab ekko,2587790,Antibody-Receptor Interactions
+1492,tezepelumab ekko,2587790,Thymic Stromal Lymphopoietin Blocker
+1494,tezepelumab ekko,2587790,Thymic Stromal Lymphopoietin Blockers
+1496,tezepelumab ekko,2587790,Other systemic drugs for obstructive airway diseases
+1504,tezepelumab ekko,2587790,"ANTIASTHMA,OTHER"
+1511,tildrakizumab-asmn,2053449,Monoclonal antibody-containing product
+1512,tildrakizumab-asmn,2053449,Interleukin 23 receptor antagonist-containing product
+1513,tildrakizumab-asmn,2053449,Drug Hypersensitivity
+1514,tildrakizumab-asmn,2053449,Psoriasis
+1515,tildrakizumab-asmn,2053449,"Antibodies, Monoclonal, Humanized"
+1516,tildrakizumab-asmn,2053449,Interleukin inhibitors
+1517,tildrakizumab-asmn,2053449,Decreased Cytokine Activity
+1518,tildrakizumab-asmn,2053449,Interleukin-23 Antagonists
+1521,tildrakizumab-asmn,2053449,Interleukin-23 Antagonist
+1527,tildrakizumab-asmn,2053449,"IMMUNOLOGICAL AGENTS,OTHER"
+1531,tocilizumab,612865,Interleukin inhibitors
+1532,tocilizumab,612865,"ANTIRHEUMATICS,OTHER"
+1551,tocilizumab,612865,Cytokine Release Syndrome
+1552,tocilizumab,612865,"Arthritis, Juvenile"
+1553,tocilizumab,612865,"Arthritis, Rheumatoid"
+1554,tocilizumab,612865,Giant Cell Arteritis
+1555,tocilizumab,612865,Decreased Cytokine Production
+1556,tocilizumab,612865,Decreased Immunologic Activity
+1557,tocilizumab,612865,Interleukin 6 Receptor Antagonists
+1597,tocilizumab,612865,Monoclonal antibody-containing product
+1602,tocilizumab,612865,"Antibodies, Monoclonal, Humanized"
+1609,tocilizumab,612865,Interleukin-6 Receptor Antagonist
+1611,tocilizumab bavi,2680283,Cytokine Release Syndrome
+1612,tocilizumab bavi,2680283,"Arthritis, Juvenile"
+1613,tocilizumab bavi,2680283,"Arthritis, Rheumatoid"
+1614,tocilizumab bavi,2680283,Giant Cell Arteritis
+1615,tocilizumab bavi,2680283,Decreased Cytokine Production
+1616,tocilizumab bavi,2680283,Decreased Immunologic Activity
+1617,tocilizumab bavi,2680283,Interleukin 6 Receptor Antagonists
+1618,tocilizumab bavi,2680283,Interleukin inhibitors
+1619,tocilizumab bavi,2680283,"ANTIRHEUMATICS,OTHER"
+1630,tocilizumab bavi,2680283,Monoclonal antibody-containing product
+1635,tocilizumab bavi,2680283,"Antibodies, Monoclonal, Humanized"
+1642,tocilizumab bavi,2680283,Interleukin-6 Receptor Antagonist
+1644,tocilizumab aazg,2679427,Cytokine Release Syndrome
+1645,tocilizumab aazg,2679427,"Arthritis, Juvenile"
+1646,tocilizumab aazg,2679427,"Arthritis, Rheumatoid"
+1647,tocilizumab aazg,2679427,Giant Cell Arteritis
+1648,tocilizumab aazg,2679427,Decreased Cytokine Production
+1649,tocilizumab aazg,2679427,Decreased Immunologic Activity
+1650,tocilizumab aazg,2679427,Interleukin 6 Receptor Antagonists
+1651,tocilizumab aazg,2679427,Interleukin inhibitors
+1652,tocilizumab aazg,2679427,"ANTIRHEUMATICS,OTHER"
+1671,tocilizumab aazg,2679427,Monoclonal antibody-containing product
+1676,tocilizumab aazg,2679427,"Antibodies, Monoclonal, Humanized"
+1683,tocilizumab aazg,2679427,Interleukin-6 Receptor Antagonist
+1685,tofacitinib,1357536,Immunomodulator-containing product
+1686,tofacitinib,1357536,Janus kinase inhibitor-containing product
+1687,tofacitinib,1357536,Nitrogen and/or nitrogen compound-containing product
+1688,tofacitinib,1357536,"Arthritis, Rheumatoid"
+1689,tofacitinib,1357536,Piperidines
+1690,tofacitinib,1357536,Pyrimidines
+1691,tofacitinib,1357536,Janus-associated kinase (JAK) inhibitors
+1692,tofacitinib,1357536,Decreased Hematopoiesis
+1693,tofacitinib,1357536,Decreased Immunologic Activity
+1694,tofacitinib,1357536,Janus Kinase Inhibitors
+1697,tofacitinib,1357536,Janus Kinase Inhibitor
+1699,tofacitinib,1357536,"IMMUNOLOGICAL AGENTS,OTHER"
+1724,tralokinumab,2589225,Monoclonal antibody-containing product
+1725,tralokinumab,2589225,Interleukin receptor antagonist-containing product
+1726,tralokinumab,2589225,"Antibodies, Monoclonal"
+1727,tralokinumab,2589225,"Dermatitis, Atopic"
+1728,tralokinumab,2589225,"Agents for dermatitis, excluding corticosteroids"
+1729,tralokinumab,2589225,Interleukin-13 Antagonist
+1731,tralokinumab,2589225,Interleukin-13 Antagonists
+1737,tralokinumab,2589225,"DERMATOLOGICALS,SYSTEMIC,OTHER"
+1744,upadacitinib,2196092,Immunomodulator-containing product
+1745,upadacitinib,2196092,Janus kinase inhibitor-containing product
+1746,upadacitinib,2196092,Antirheumatic agent
+1747,upadacitinib,2196092,"Arthritis, Rheumatoid"
+1748,upadacitinib,2196092,"Heterocyclic Compounds, 3-Ring"
+1749,upadacitinib,2196092,Janus-associated kinase (JAK) inhibitors
+1750,upadacitinib,2196092,Increased Extracellular Communication
+1751,upadacitinib,2196092,Janus Kinase Inhibitors
+1754,upadacitinib,2196092,Janus Kinase Inhibitor
+1757,upadacitinib,2196092,"ANTIRHEUMATICS,OTHER"
+1772,ustekinumab,847083,IMMUNE SUPPRESSANTS
+1773,ustekinumab,847083,Interleukin inhibitors
+1820,ustekinumab,847083,Monoclonal antibody-containing product
+1821,ustekinumab,847083,Ustekinumab
+1822,ustekinumab,847083,Crohn Disease
+1823,ustekinumab,847083,Drug Hypersensitivity
+1824,ustekinumab,847083,"Arthritis, Psoriatic"
+1826,ustekinumab,847083,Interleukin-12 Antagonists
+1829,ustekinumab,847083,Interleukin-12 Antagonist
+1831,ustekinumab,847083,Interleukin-23 Antagonists
+1834,ustekinumab,847083,Interleukin-23 Antagonist
+1844,vedolizumab,1538097,Monoclonal antibody-containing product
+1845,vedolizumab,1538097,Immunomodulator-containing product
+1846,vedolizumab,1538097,Alpha-4 integrin receptor antagonist-containing product
+1847,vedolizumab,1538097,"Colitis, Ulcerative"
+1848,vedolizumab,1538097,Crohn Disease
+1849,vedolizumab,1538097,Drug Hypersensitivity
+1850,vedolizumab,1538097,Enteritis
+1851,vedolizumab,1538097,"Antibodies, Monoclonal, Humanized"
+1852,vedolizumab,1538097,Monoclonal antibodies
+1853,vedolizumab,1538097,Decreased Adhesion Factor Activity
+1854,vedolizumab,1538097,Integrin Receptor Antagonists
+1857,vedolizumab,1538097,Integrin Receptor Antagonist
+1859,vedolizumab,1538097,"GASTRIC MEDICATIONS,OTHER"
