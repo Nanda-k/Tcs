@@ -77,7 +77,6 @@ def fetch_therapeutic_class(rxcui, drug_name):
 tc_data = pd.read_csv('tc_tims.csv')
 tc_to_drugs = tc_data.groupby("Therapeutic Class")["Drug Name"].apply(lambda x: ", ".join(set(x))).to_dict()
 
-# Function to Display Therapeutic Classes with Properly Rendered Tooltips
 def display_therapeutic_classes_with_tooltip(df):
     gb = GridOptionsBuilder.from_dataframe(df)
     gb.configure_default_column(groupable=True, value=True, enableRowGroup=True)
@@ -85,22 +84,19 @@ def display_therapeutic_classes_with_tooltip(df):
     # ✅ Ensure Tooltip Field is Correct
     df["Tooltip"] = df["Therapeutic Class"].map(tc_to_drugs)
 
-    # ✅ Properly Format the Tooltip for HTML Rendering
+    # ✅ Properly Format the Tooltip as Plain Text
     def format_tooltip_text(text):
         if pd.isna(text) or text == "":
             return ""  # Handle missing values safely
         drugs = text.split(", ")  # Split by comma
-        rows = ["<div>" + "<br>".join(drugs[i:i+4]) + "</div>" for i in range(0, len(drugs), 4)]
-        
-        return "".join(rows)  # Remove outer `<div>` to ensure proper rendering
+        return "\n".join(drugs)  # Use newline for formatting
 
     df["Tooltip"] = df["Tooltip"].apply(format_tooltip_text)
 
-    # ✅ Configure Tooltip Column with AgGrid's Built-in Custom Tooltip Component
+    # ✅ Configure Tooltip Column with Plain Text Rendering
     gb.configure_column(
         "Therapeutic Class",
-        tooltipField="Tooltip",
-        tooltipComponent="CustomTooltipRenderer"
+        tooltipField="Tooltip"
     )
 
     # ✅ Additional Grid Configurations
@@ -109,28 +105,21 @@ def display_therapeutic_classes_with_tooltip(df):
     grid_options["tooltipHideDelay"] = 10000  # Keep tooltip visible for 10 seconds
     grid_options["suppressSizeToFit"] = False  # Prevent tooltip from being cut off
 
-    # ✅ Inject JavaScript-based Custom Tooltip Renderer for Correct HTML Interpretation
-    custom_js = '''
-    class CustomTooltipRenderer {
-        init(params) {
-            this.eGui = document.createElement('div');
-            this.eGui.innerHTML = params.value;
-            this.eGui.style.backgroundColor = '#f0f0f0';  // ✅ Light Background
-            this.eGui.style.color = 'black';  // ✅ Black Text
-            this.eGui.style.padding = '10px';
-            this.eGui.style.borderRadius = '8px';
-            this.eGui.style.fontSize = '18px';  // ✅ Increased Font Size
-            this.eGui.style.textAlign = 'left';
-            this.eGui.style.maxWidth = '300px';
-            this.eGui.style.whiteSpace = 'normal';  // ✅ Ensure proper word wrapping
-        }
-        getGui() {
-            return this.eGui;
+    # ✅ Apply Custom CSS for Tooltips (No HTML Needed)
+    custom_css = {
+        ".ag-tooltip": {
+            "font-size": "18px",  # ✅ Increased Font Size
+            "background-color": "#f0f0f0",  # ✅ Light Gray Background
+            "color": "black",  # ✅ Black Text for Readability
+            "padding": "10px",
+            "border-radius": "8px",
+            "max-width": "300px",
+            "white-space": "pre-wrap",  # ✅ Ensures Proper Line Breaks
+            "text-align": "left"
         }
     }
-    '''
 
-    # ✅ Display AgGrid with Properly Rendered HTML Tooltips
+    # ✅ Display AgGrid with Properly Styled Tooltips (No HTML)
     AgGrid(
         df,
         gridOptions=grid_options,
@@ -138,12 +127,8 @@ def display_therapeutic_classes_with_tooltip(df):
         allow_unsafe_jscode=True,
         height=500,
         fit_columns_on_grid_load=True,
-        custom_js=custom_js,  # ✅ Ensure AgGrid interprets the HTML correctly
+        custom_css=custom_css  # ✅ Applying tooltip styling
     )
-
-
-
-
  
 def fetch_drug_details(drug_name):
     rxcui = fetch_rxcui(drug_name)
