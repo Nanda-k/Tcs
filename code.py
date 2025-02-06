@@ -92,15 +92,11 @@ def display_therapeutic_classes_with_tooltip(df):
         drugs = text.split(", ")  # Split by comma
         rows = ["<div>" + "<br>".join(drugs[i:i+4]) + "</div>" for i in range(0, len(drugs), 4)]
         
-        return (
-            f"<div style='font-size: 18px; color: black; background-color: #f0f0f0; "
-            f"padding: 10px; border-radius: 8px; max-width: 300px; word-wrap: break-word; "
-            f"text-align: left;'>{''.join(rows)}</div>"
-        )
+        return "".join(rows)  # Remove outer `<div>` to ensure proper rendering
 
     df["Tooltip"] = df["Tooltip"].apply(format_tooltip_text)
 
-    # ✅ Configure Tooltip Column with Custom Tooltip Component
+    # ✅ Configure Tooltip Column with AgGrid's Built-in Custom Tooltip Component
     gb.configure_column(
         "Therapeutic Class",
         tooltipField="Tooltip",
@@ -113,7 +109,7 @@ def display_therapeutic_classes_with_tooltip(df):
     grid_options["tooltipHideDelay"] = 10000  # Keep tooltip visible for 10 seconds
     grid_options["suppressSizeToFit"] = False  # Prevent tooltip from being cut off
 
-    # ✅ Inject JavaScript-based Custom Tooltip Renderer to Interpret HTML
+    # ✅ Inject JavaScript-based Custom Tooltip Renderer for Correct HTML Interpretation
     custom_js = '''
     class CustomTooltipRenderer {
         init(params) {
@@ -126,6 +122,7 @@ def display_therapeutic_classes_with_tooltip(df):
             this.eGui.style.fontSize = '18px';  // ✅ Increased Font Size
             this.eGui.style.textAlign = 'left';
             this.eGui.style.maxWidth = '300px';
+            this.eGui.style.whiteSpace = 'normal';  // ✅ Ensure proper word wrapping
         }
         getGui() {
             return this.eGui;
@@ -141,8 +138,9 @@ def display_therapeutic_classes_with_tooltip(df):
         allow_unsafe_jscode=True,
         height=500,
         fit_columns_on_grid_load=True,
-        custom_js=custom_js,  # Inject Custom JavaScript to Render Tooltips
+        custom_js=custom_js,  # ✅ Ensure AgGrid interprets the HTML correctly
     )
+
 
 
 
