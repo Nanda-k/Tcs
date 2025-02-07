@@ -53,8 +53,8 @@ def fetch_clinical_trials(drug_name):
             record = {
                 'Drug Name': drug_name,  # ✅ NEW Identifier Column
                 'NCT ID': nct_id,
-                'Title': title,  # ✅ Use title here, and link separately
-                'Title Link': title_link,  # ✅ Store separate link for rendering
+                'Title': title,  # ✅ Displayed text
+                'Title Link': title_link,  # ✅ Hyperlink URL
                 'Status': status_module.get('overallStatus', 'N/A'),
                 'Start Date': status_module.get('startDateStruct', {}).get('date', 'N/A'),
                 'Completion Date': status_module.get('completionDateStruct', {}).get('date', 'N/A'),
@@ -155,7 +155,7 @@ def run_app():
                 # ✅ Enable HTML rendering for "Title"
                 gb.configure_column("Title", cellRenderer="""
                     function(params) {
-                        return `<a href="${params.data['Title Link']}" target="_blank">${params.value}</a>`;
+                        return `<a href="${params.data['Title Link']}" target="_blank" style="color: #00C7FF; text-decoration: underline;">${params.value}</a>`;
                     }
                 """)
 
