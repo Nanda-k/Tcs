@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import requests
-from st_aggrid import AgGrid, GridOptionsBuilder
 
 st.set_page_config(layout='wide')
 
@@ -47,14 +46,13 @@ def fetch_clinical_trials(drug_name):
             nct_id = identification_module.get('nctId', 'N/A')
             title = identification_module.get('briefTitle', 'N/A')
 
-            # ✅ Create proper hyperlink for each title
-            title_link = f"https://clinicaltrials.gov/study/{nct_id}?term={nct_id}&rank=1"
+            # ✅ Create proper Markdown link
+            title_link = f"[{title}](https://clinicaltrials.gov/study/{nct_id}?term={nct_id}&rank=1)"
 
             record = {
                 'Drug Name': drug_name,  # ✅ NEW Identifier Column
                 'NCT ID': nct_id,
-                'Title': title,  # ✅ Displayed text
-                'Title Link': title_link,  # ✅ Hyperlink URL
+                'Title': title_link,  # ✅ Clickable Title
                 'Status': status_module.get('overallStatus', 'N/A'),
                 'Start Date': status_module.get('startDateStruct', {}).get('date', 'N/A'),
                 'Completion Date': status_module.get('completionDateStruct', {}).get('date', 'N/A'),
@@ -145,30 +143,11 @@ def run_app():
                         )
                     ]
 
-                # ✅ Display Filtered Data using AgGrid
+                # ✅ Display Filtered Data using Markdown for Clickable Links
                 st.write("### 📑 Clinical Trials Data")
 
-                # ✅ Configure AgGrid with Clickable Links
-                gb = GridOptionsBuilder.from_dataframe(filtered_trials_df)
-                gb.configure_default_column(resizable=True, wrapText=True, autoHeight=True)
-
-                # ✅ Enable HTML rendering for "Title"
-                gb.configure_column("Title", cellRenderer="""
-                    function(params) {
-                        return `<a href="${params.data['Title Link']}" target="_blank" style="color: #00C7FF; text-decoration: underline;">${params.value}</a>`;
-                    }
-                """)
-
-                grid_options = gb.build()
-
-                AgGrid(
-                    filtered_trials_df,
-                    gridOptions=grid_options,
-                    enable_enterprise_modules=False,
-                    allow_unsafe_jscode=True,
-                    height=500,  # Adjust for better viewing
-                    fit_columns_on_grid_load=False,  # Prevent auto-resizing that hides columns
-                )
+                # ✅ Convert the dataframe to Markdown format for clickable links
+                st.markdown(filtered_trials_df.to_markdown(index=False), unsafe_allow_html=True)
 
                 # ✅ Download Button
                 st.download_button(
