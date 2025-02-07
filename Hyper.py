@@ -48,12 +48,13 @@ def fetch_clinical_trials(drug_name):
             title = identification_module.get('briefTitle', 'N/A')
 
             # ✅ Create proper hyperlink for each title
-            title_link = f'<a href="https://clinicaltrials.gov/study/{nct_id}?term={nct_id}&rank=1" target="_blank">{title}</a>'
+            title_link = f"https://clinicaltrials.gov/study/{nct_id}?term={nct_id}&rank=1"
 
             record = {
                 'Drug Name': drug_name,  # ✅ NEW Identifier Column
                 'NCT ID': nct_id,
-                'Title': title_link,  # ✅ Clickable Title
+                'Title': title,  # ✅ Use title here, and link separately
+                'Title Link': title_link,  # ✅ Store separate link for rendering
                 'Status': status_module.get('overallStatus', 'N/A'),
                 'Start Date': status_module.get('startDateStruct', {}).get('date', 'N/A'),
                 'Completion Date': status_module.get('completionDateStruct', {}).get('date', 'N/A'),
@@ -152,11 +153,11 @@ def run_app():
                 gb.configure_default_column(resizable=True, wrapText=True, autoHeight=True)
 
                 # ✅ Enable HTML rendering for "Title"
-                gb.configure_column("Title", cellRenderer='''
+                gb.configure_column("Title", cellRenderer="""
                     function(params) {
-                        return `<a href="${params.value}" target="_blank">${params.value}</a>`;
+                        return `<a href="${params.data['Title Link']}" target="_blank">${params.value}</a>`;
                     }
-                ''')
+                """)
 
                 grid_options = gb.build()
 
